@@ -1,0 +1,21 @@
+[package]
+name = "photoprintit-tools"
+description = "A collection of tools for photoprintit software"
+version = "0.1.0"
+authors = ["Jan Baudisch (flyingP0tat0) <dev@baudisch.xyz>"]
+repository = "https://github.com/flyingP0tat0/photoprintit-tools.git"
+readme = "README.md"
+keywords = ["photoprintit", "cli", "tool"]
+categories = ["command-line-utilities"]
+license = "MIT"
+
+[dependencies]
+log = "0.4"
+nom = "4.1"
+pretty_env_logger = "0.2"
+reqwest = "0.9"
+structopt = "0.2"
+
+[profile.release]
+lto = true
+codegen-units = 1
