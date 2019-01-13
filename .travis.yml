@@ -1,5 +1,9 @@
 language: rust
 
+branches:
+  except:
+    - /^dependabot\/.*/
+
 rust:
   - stable
   - beta
