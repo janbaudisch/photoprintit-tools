@@ -38,7 +38,7 @@ OPTIONS:
 
 MIT licensed, see [`LICENSE`](LICENSE)
 
-[build-img]: https://travis-ci.com/flyingP0tat0/photoprintit-tools.svg?branch=master
-[build-url]: https://travis-ci.com/flyingP0tat0/photoprintit-tools
+[build-img]: https://travis-ci.com/janbaudisch/photoprintit-tools.svg?branch=master
+[build-url]: https://travis-ci.com/janbaudisch/photoprintit-tools
 [crates-io-img]: https://img.shields.io/crates/v/photoprintit-tools.svg
 [crates-io-url]: https://crates.io/crates/photoprintit-tools

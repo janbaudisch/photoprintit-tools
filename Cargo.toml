@@ -2,8 +2,8 @@
 name = "photoprintit-tools"
 description = "A collection of tools for photoprintit software"
 version = "0.1.0"
-authors = ["Jan Baudisch (flyingP0tat0) <dev@baudisch.xyz>"]
-repository = "https://github.com/flyingP0tat0/photoprintit-tools.git"
+authors = ["Jan Baudisch <dev@baudisch.xyz>"]
+repository = "https://github.com/janbaudisch/photoprintit-tools.git"
 readme = "README.md"
 keywords = ["photoprintit", "cli", "tool"]
 categories = ["command-line-utilities"]
