@@ -14,7 +14,7 @@ log = "0.4"
 nom = "4.2"
 pretty_env_logger ="0.3"
 reqwest = "0.9"
-structopt = "0.2"
+structopt = "0.3"
 
 [profile.release]
 lto = true
