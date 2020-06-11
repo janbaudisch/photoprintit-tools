@@ -5,7 +5,7 @@ use std::str::FromStr;
 #[derive(Debug)]
 pub struct File {
     pub url: String,
-    pub platform: Platform
+    pub platform: Platform,
 }
 
 impl fmt::Display for File {

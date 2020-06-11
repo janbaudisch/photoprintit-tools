@@ -5,7 +5,7 @@ pub enum Platform {
     Linux64,
     Mac,
     Windows,
-    Windows64
+    Windows64,
 }
 
 impl<'a> From<&'a str> for Platform {
@@ -18,7 +18,7 @@ impl<'a> From<&'a str> for Platform {
             "m" => Platform::Mac,
             "w" => Platform::Windows,
             "w64" => Platform::Windows64,
-            _ => panic!("Unknown platform: {}", input)
+            _ => panic!("Unknown platform: {}", input),
         }
     }
 }

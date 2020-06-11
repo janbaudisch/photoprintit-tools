@@ -18,6 +18,6 @@ use structopt::StructOpt;
 fn main() {
     pretty_env_logger::init();
     match Cli::from_args() {
-        Cli::Prepare(args) => prepare::main(&args)
+        Cli::Prepare(args) => prepare::main(&args),
     }
 }

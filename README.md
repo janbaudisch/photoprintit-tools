@@ -2,7 +2,7 @@
 
 # photoprintit-tools
 
-> A collection of tools for photoprintit software
+> A collection of tools for photoprintit software.
 
 ## Installation
 
@@ -38,7 +38,7 @@ OPTIONS:
 
 MIT licensed, see [`LICENSE`](LICENSE)
 
-[build-img]: https://travis-ci.com/janbaudisch/photoprintit-tools.svg?branch=master
-[build-url]: https://travis-ci.com/janbaudisch/photoprintit-tools
+[build-img]: https://builds.sr.ht/~janbaudisch/photoprintit-tools.svg
+[build-url]: https://builds.sr.ht/~janbaudisch/photoprintit-tools
 [crates-io-img]: https://img.shields.io/crates/v/photoprintit-tools.svg
 [crates-io-url]: https://crates.io/crates/photoprintit-tools

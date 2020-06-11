@@ -1,0 +1,15 @@
+image: archlinux
+package:
+  - curl
+sources:
+  - https://git.sr.ht/~janbaudisch/photoprintit-tools
+tasks:
+  - setup: curl -sSf https://sh.rustup.rs | sh -s -- -y --default-toolchain stable
+  - build: |
+      . $HOME/.cargo/env
+      cd photoprintit-tools
+      cargo build --verbose --all
+  - test: |
+      . $HOME/.cargo/env
+      cd photoprintit-tools
+      cargo test --verbose --all

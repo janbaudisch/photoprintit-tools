@@ -1,0 +1,19 @@
+image: archlinux
+package:
+  - curl
+sources:
+  - https://git.sr.ht/~janbaudisch/photoprintit-tools
+tasks:
+  - setup: |
+      curl -sSf https://sh.rustup.rs | sh -s -- -y --default-toolchain stable
+      . $HOME/.cargo/env
+      rustup component add rustfmt
+      rustup component add clippy
+  - format: |
+      . $HOME/.cargo/env
+      cd photoprintit-tools
+      cargo fmt --all -- --check
+  - lint: |
+      . $HOME/.cargo/env
+      cd photoprintit-tools
+      cargo clippy --all -- --deny clippy::all

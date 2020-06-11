@@ -6,7 +6,7 @@ use super::Platform;
 pub enum Cli {
     /// Prepare download
     #[structopt(name = "prepare")]
-    Prepare(Prepare)
+    Prepare(Prepare),
 }
 
 /// Prepare download
@@ -36,5 +36,5 @@ pub struct Prepare {
         long = "download-server",
         default_value = "https://dls.photoprintit.com"
     )]
-    pub dl_server: String
+    pub dl_server: String,
 }
