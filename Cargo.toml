@@ -1,6 +1,6 @@
 [package]
 name = "photoprintit-tools"
-description = "A collection of tools for photoprintit software"
+description = "A collection of tools for photoprintit software."
 version = "0.1.0"
 authors = ["Jan Baudisch <dev@baudisch.xyz>"]
 repository = "https://github.com/janbaudisch/photoprintit-tools.git"
@@ -12,7 +12,7 @@ license = "MIT"
 [dependencies]
 log = "0.4"
 nom = "4.2"
-pretty_env_logger ="0.3"
+pretty_env_logger ="0.4"
 reqwest = "0.9"
 structopt = "0.3"
 
